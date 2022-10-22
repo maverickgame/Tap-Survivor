@@ -1,4 +1,11 @@
 /// @description Insert description here
+target_x = x;
+target_y = y;
+target_speed = 5;
+
+displayx = display_get_gui_width();
+displayy = display_get_gui_height();
+
 
 walkspeed = 2;
 

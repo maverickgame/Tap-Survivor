@@ -31,6 +31,18 @@ if (gamepad_axis_value(0, gp_axislh) != 0 or gamepad_axis_value(0, gp_axislv) !=
  	if (hor      < 0){  image_xscale =  -1; } 
 	
 	
-	
+
+if (mouse_check_button_pressed(mb_left)) {
+  target_x = mouse_x;
+  target_y = mouse_y;
+}
+
+if (point_distance(x, y, target_x, target_y) <= target_speed) {
+  x = target_x;
+  y = target_y;
+} else {
+  mp_linear_step(target_x, target_y, target_speed, false);
+}
+
 
  

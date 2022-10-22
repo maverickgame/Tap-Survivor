@@ -4,6 +4,7 @@
   "name": "Tap Survivor",
   "resources": [
     {"id":{"name":"spr_Enemy_2","path":"sprites/spr_Enemy_2/spr_Enemy_2.yy",},"order":2,},
+    {"id":{"name":"spr_EXPTotal","path":"sprites/spr_EXPTotal/spr_EXPTotal.yy",},"order":5,},
     {"id":{"name":"obj_Weapon_Fireball","path":"objects/obj_Weapon_Fireball/obj_Weapon_Fireball.yy",},"order":5,},
     {"id":{"name":"spr_Ugrade_Hammer","path":"sprites/spr_Ugrade_Hammer/spr_Ugrade_Hammer.yy",},"order":12,},
     {"id":{"name":"CopyRight","path":"notes/CopyRight/CopyRight.yy",},"order":0,},
@@ -21,6 +22,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":5,},
     {"id":{"name":"spr_Icon","path":"sprites/spr_Icon/spr_Icon.yy",},"order":0,},
     {"id":{"name":"obj_Dummy","path":"objects/obj_Dummy/obj_Dummy.yy",},"order":4,},
+    {"id":{"name":"spr_EXPBarBg","path":"sprites/spr_EXPBarBg/spr_EXPBarBg.yy",},"order":6,},
     {"id":{"name":"spr_Coin","path":"sprites/spr_Coin/spr_Coin.yy",},"order":9,},
     {"id":{"name":"obj_Weapon_Hammer","path":"objects/obj_Weapon_Hammer/obj_Weapon_Hammer.yy",},"order":8,},
     {"id":{"name":"spr_Slash","path":"sprites/spr_Slash/spr_Slash.yy",},"order":1,},
@@ -30,6 +32,7 @@
     {"id":{"name":"spr_Hero","path":"sprites/spr_Hero/spr_Hero.yy",},"order":0,},
     {"id":{"name":"spr_MagicBall","path":"sprites/spr_MagicBall/spr_MagicBall.yy",},"order":3,},
     {"id":{"name":"spr_Coin_Small","path":"sprites/spr_Coin_Small/spr_Coin_Small.yy",},"order":8,},
+    {"id":{"name":"spr_EXPBar","path":"sprites/spr_EXPBar/spr_EXPBar.yy",},"order":4,},
     {"id":{"name":"spr_Enemy_1White","path":"sprites/spr_Enemy_1White/spr_Enemy_1White.yy",},"order":1,},
     {"id":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"order":6,},
     {"id":{"name":"spr_Hit","path":"sprites/spr_Hit/spr_Hit.yy",},"order":0,},
@@ -77,6 +80,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.0.49",
+    "IDEVersion": "2022.9.1.51",
   },
 }
