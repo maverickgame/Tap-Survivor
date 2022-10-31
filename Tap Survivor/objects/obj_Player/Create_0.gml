@@ -1,4 +1,24 @@
 /// @description Insert description here
+
+joystick = {
+	finger: -1,
+	
+	x: 0,
+	y: 0,
+	
+	anchorX: 0,
+	anchorY: 0,
+	
+	maxDistance: 48
+};
+
+x_speed_ = 0;
+y_speed_ = 0;
+max_speed_ = 2;
+acceleration_ = .5;
+vir_x_speed = 0;
+vir_y_speed = 0;
+
 target_x = x;
 target_y = y;
 target_speed = 5;

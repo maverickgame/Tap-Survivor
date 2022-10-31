@@ -10,3 +10,8 @@
 draw_sprite_stretched (spr_EXPBarBg,0,0,0,displayx, 56);
 draw_sprite_stretched (spr_EXPTotal,0,0,0,(xp/xpNext)*displayx, 56);
 draw_sprite_stretched (spr_EXPBar,0,0,0,displayx, 56);
+
+
+if (joystick.finger == -1) { exit; }
+draw_sprite(s_joystick_bg, 0, joystick.anchorX, joystick.anchorY);
+draw_sprite(s_joystick, 0, joystick.x, joystick.y);
