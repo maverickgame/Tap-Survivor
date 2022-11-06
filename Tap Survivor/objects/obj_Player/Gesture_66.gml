@@ -4,7 +4,10 @@ var finger = event_data[? "touch"];
 var fingerX = event_data[? "guiposX"];
 var fingerY = event_data[? "guiposY"];
 
-if (joystick.finger == -1 && fingerX <= display_get_gui_width() && fingerY >= display_get_gui_height() ) {
+//if (joystick.finger == -1 && fingerX <= camera_get_view_width(view_camera[0]) && fingerY >= camera_get_view_height(view_camera[0]) ) {
+//	joystick.finger = finger;
+
+if (joystick.finger == -1 && fingerX <= room_width && fingerY >= 0 ) {
 	joystick.finger = finger;
 	
 	joystick.x = fingerX;
