@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tap Survivor",
-    "path": "Tap Survivor.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

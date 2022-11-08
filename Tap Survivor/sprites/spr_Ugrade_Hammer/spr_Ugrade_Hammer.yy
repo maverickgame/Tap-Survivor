@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tap Survivor",
-    "path": "Tap Survivor.yyp",
+    "name": "Icons",
+    "path": "folders/Sprites/Icons.yy",
   },
 }

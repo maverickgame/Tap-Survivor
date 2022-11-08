@@ -1,15 +1,15 @@
-Code by 1up Indie CC3by or if you realllly want to stretch it CC0,
-which means credit appreciated but not necessary.
 
-version: V5
+Made by:
+Sanjay
+
+
+Based on:
+Tutorial by 1up Indie CC3by (V5)
 
 
 Grahics:
-Ansimuz CC0by 
 https://opengameart.org/content/tiny-rpg-forest
 https://opengameart.org/content/warped-shooting-fx
-
-
-Buch CC0by (Slash)
 https://opengameart.org/content/a-platformer-in-the-forest
+https://hannemann.itch.io/virtual-joystick-pack-free
 

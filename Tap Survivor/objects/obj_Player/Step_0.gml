@@ -1,11 +1,19 @@
 scrPlayerTouch();
 
-   if (instance_exists(obj_Upgrade)){  image_speed = 0; exit; }
+
+x = clamp(x, sprite_width div 2, room_width-sprite_width div 2);
+y = clamp(y, sprite_height div 2, room_height-sprite_height div 2);
+
+
+ if (instance_exists(obj_Upgrade)){  image_speed = 0; exit; }
    
  image_speed = 1;  
  
  x += vir_x_speed * walkspeed; 
  y += vir_y_speed * walkspeed;
+ 
+if (vir_x_speed      > 0){  image_xscale =   1; }
+if (vir_x_speed      < 0){  image_xscale =  -1; } 
 //// getting input
 //var left  =  keyboard_check(vk_left) ;  
 //var right =  keyboard_check(vk_right) ; 
