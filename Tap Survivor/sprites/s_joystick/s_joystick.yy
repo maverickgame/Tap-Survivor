@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Hero",
-    "path": "folders/Sprites/Hero.yy",
+    "name": "UI Icons",
+    "path": "folders/Sprites/UI Icons.yy",
   },
 }

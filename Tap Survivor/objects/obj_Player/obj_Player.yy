@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Player",
   "spriteId": {
-    "name": "spr_Hero",
-    "path": "sprites/spr_Hero/spr_Hero.yy",
+    "name": "spr_Hero2",
+    "path": "sprites/spr_Hero2/spr_Hero2.yy",
   },
   "solid": false,
   "visible": true,
