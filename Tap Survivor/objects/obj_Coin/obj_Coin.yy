@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Coin",
   "spriteId": {
-    "name": "spr_Coin_Small",
-    "path": "sprites/spr_Coin_Small/spr_Coin_Small.yy",
+    "name": "spr_Dogbone",
+    "path": "sprites/spr_Dogbone/spr_Dogbone.yy",
   },
   "solid": false,
   "visible": true,

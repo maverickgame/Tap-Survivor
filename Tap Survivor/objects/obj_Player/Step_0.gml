@@ -8,6 +8,9 @@ y = clamp(y, sprite_height div 2, room_height-sprite_height div 2);
  if (instance_exists(obj_Upgrade)){  image_speed = 0; exit; }
    
  image_speed = 1;  
+
+
+if (image_index>13) {image_index=1;}
  
  x += vir_x_speed * walkspeed; 
  y += vir_y_speed * walkspeed;

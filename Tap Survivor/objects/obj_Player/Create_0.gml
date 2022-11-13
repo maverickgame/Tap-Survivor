@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 randomize();
-sprite_index = choose(spr_Hero1,spr_Hero2,spr_Hero3,spr_Hero4,spr_Hero5);
+sprite_index = choose(spr_Hero2,spr_Hero3,spr_Hero4,spr_Hero5);
 
 ///joystick
 joystick = {
