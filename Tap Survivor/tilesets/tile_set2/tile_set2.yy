@@ -1,10 +1,10 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tile_set",
+  "name": "tile_set2",
   "spriteId": {
-    "name": "spr_RandomGround1",
-    "path": "sprites/spr_RandomGround1/spr_RandomGround1.yy",
+    "name": "spr_RandomGround",
+    "path": "sprites/spr_RandomGround/spr_RandomGround.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,

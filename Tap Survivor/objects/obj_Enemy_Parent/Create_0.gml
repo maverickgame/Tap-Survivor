@@ -1,8 +1,6 @@
 
-
+//default stats
 walkSpeed = 0.3;
-
-
 hp = 10;
 
 // sprite handling

@@ -28,9 +28,9 @@ displayy = display_get_gui_height();
 //stats
 walkspeed = 0.5;
 
-alartime[0] = 20;
-alartime[1] = 15;
-alartime[2] = 15;
+alartime[0] = 10;
+alartime[1] = 30;
+alartime[2] = 60;
 
 alarm[0] = alartime[0];
 alarm[1] = alartime[1];
@@ -56,6 +56,10 @@ xp     = 0;
 xpNext = 30;
 lvl = 1;
 
+
+//player hp
+p_hp = 100;
+p_maxhp = 100;
 
 
 

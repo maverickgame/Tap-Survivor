@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+
+//update stats
 walkSpeed = 0.05;
 hp = 40;
 

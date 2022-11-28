@@ -5,5 +5,10 @@
 event_inherited();
 
 
+//update stats
+walkSpeed = 0.3;
+hp = 10;
+
+
 spr  = spr_Enemy_2;
 sprW = spr_Enemy_2White;

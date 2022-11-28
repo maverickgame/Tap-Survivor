@@ -17,6 +17,8 @@ if (image_index>13) {image_index=1;}
  
 if (vir_x_speed      > 0){  image_xscale =   1; }
 if (vir_x_speed      < 0){  image_xscale =  -1; } 
+
+
 //// getting input
 //var left  =  keyboard_check(vk_left) ;  
 //var right =  keyboard_check(vk_right) ; 
@@ -60,4 +62,7 @@ if (vir_x_speed      < 0){  image_xscale =  -1; }
 //}
 
 
- 
+ if p_hp < 0 
+{
+  room_restart();
+}
