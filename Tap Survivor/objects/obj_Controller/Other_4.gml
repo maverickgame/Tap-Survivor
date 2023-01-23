@@ -1,4 +1,8 @@
 randomize();
+if !audio_is_playing(Purple_Black_Loop)
+{
+audio_play_sound(Purple_Black_Loop, 11, true);
+}
 
 
 var getRoomWidth  = round(room_width/16);

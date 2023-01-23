@@ -37,3 +37,4 @@ var _vy = camera_get_view_y(view_camera[0]) +  (camera_get_view_height(view_came
 
 
 instance_destroy(other.id);
+audio_play_sound(Pickup_coin_4, 10, false);

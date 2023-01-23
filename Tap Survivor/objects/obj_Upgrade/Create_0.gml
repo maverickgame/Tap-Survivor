@@ -1,4 +1,8 @@
 /// @description Insert description here
+if !audio_is_playing(Powerup_111)
+{
+audio_play_sound(Powerup_111, 11, false);
+}
 
 
 image_alpha = 0;
