@@ -10,5 +10,5 @@ walkSpeed = 0.3;
 hp = 10;
 
 
-spr  = spr_Enemy_2;
-sprW = spr_Enemy_2White;
+spr  = spr_Enemy_3;
+sprW = spr_Enemy_3White;

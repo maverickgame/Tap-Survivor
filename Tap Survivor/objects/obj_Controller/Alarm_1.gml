@@ -21,7 +21,7 @@ repeat(2){
  var XX  = obj_Player.x + lengthdir_x(220, dir);
  var YY  = obj_Player.y + lengthdir_y(220, dir); 
  
- instance_create_layer(XX, YY, "Instances", obj_Enemy_B );
+ instance_create_layer(XX, YY, "Instances", choose(obj_Enemy_A,obj_Enemy_B) );
 }
 
 
